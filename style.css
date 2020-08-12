@@ -1,4 +1,4 @@
-body{
+body,html{
     background-color: #E9E9E9;
     margin: 0;
     padding: 0;
@@ -6,6 +6,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height:100%;
 }
 .card{
   width:400px;
@@ -13,4 +14,7 @@ body{
 }
 .card img{
   width:100%;
+}
+.content{
+  padding: .5em 10% 2em 10%;
 }
