@@ -11,10 +11,19 @@ body,html{
 .card{
   width:400px;
   background-color: #FFF;
+  box-shadow: 13px 15px 37px -17px rgba(0,0,0,0.63);
 }
 .card img{
   width:100%;
 }
 .content{
   padding: .5em 10% 2em 10%;
+
+}
+
+button{
+  color:#FFF;
+  background-color: #49546A;
+  border:0;
+  padding: .8em 1.6em;
 }
