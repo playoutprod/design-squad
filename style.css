@@ -26,4 +26,20 @@ button{
   background-color: #49546A;
   border:0;
   padding: .8em 1.6em;
+  padding-left: .8em;
+  transition: padding-left 1s ease-in-out;
+}
+
+button:hover{
+  padding-left: 3.2em;
+}
+
+.card button img{
+  display: none;
+  width:8px;
+  height:12px;
+}
+
+.card button:hover img{
+  display: block;
 }
