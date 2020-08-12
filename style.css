@@ -9,4 +9,8 @@ body{
 }
 .card{
   width:400px;
+  background-color: #FFF;
+}
+.card img{
+  width:100%;
 }
